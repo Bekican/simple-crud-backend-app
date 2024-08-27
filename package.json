@@ -1,0 +1,22 @@
+{
+  "name": "nodejsprojem",
+  "version": "1.0.0",
+  "description": "Node.js kurs code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Bekir Çakmak",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
